@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "first backend project",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/AHMAD-USM/intro-to-backend/issues"
   },
-  "homepage": "https://github.com/AHMAD-USM/intro-to-backend#readme"
+  "homepage": "https://github.com/AHMAD-USM/intro-to-backend#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.5.0"
+  }
 }
