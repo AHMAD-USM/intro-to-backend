@@ -1,0 +1,27 @@
+{
+  "name": "freecode-camp1",
+  "version": "1.0.0",
+  "description": "first backend project",
+  "main": "src/backend.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AHMAD-USM/intro-to-backend.git"
+  },
+  "author": "Ahmad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AHMAD-USM/intro-to-backend/issues"
+  },
+  "homepage": "https://github.com/AHMAD-USM/intro-to-backend#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.5.0",
+    "nodemon": "^3.1.14"
+  }
+}
